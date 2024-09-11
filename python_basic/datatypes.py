@@ -30,3 +30,12 @@ print(5 // 4)
 print(6 % 4)
 
 # math functions
+print(round(3.9))
+print(abs(-20))
+
+# Operator precedence
+print(20 - 3 * 4)
+ # ()
+ # **
+ # * /
+ # + -
