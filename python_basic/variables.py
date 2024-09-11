@@ -1,6 +1,6 @@
 # Assigning a vaue to a variable in python(bidding)
-user_iq = 190
-user_age = user_iq / 4
+user_iq = 190 # This is a statement
+user_age = user_iq / 4 # the division is an expression which means an action to be performed.
 
 # a = user_age
 
@@ -12,3 +12,9 @@ print(user_age)
 print(a)
 print(b)
 print(c)
+
+# Augmented assignment operator
+some_value = 5
+some_value += 2
+
+print(some_value)
