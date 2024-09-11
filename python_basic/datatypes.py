@@ -39,3 +39,10 @@ print(20 - 3 * 4)
  # **
  # * /
  # + -
+ 
+ # complex data types in mathematics
+complex
+
+# integer and float are stored in memory as binary
+print(bin(5))
+print(int('0b101', 2))
