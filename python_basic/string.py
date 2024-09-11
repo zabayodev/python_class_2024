@@ -10,3 +10,6 @@ ___
 '''
 
 print(long_string)
+
+first_name = 'Andrei'
+last_name = "Neagoie"
