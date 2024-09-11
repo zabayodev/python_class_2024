@@ -21,6 +21,6 @@ None
 #int is numbers
 
 print(type(2 + 5))
-print(2 - 4)
-print(2 * 4)
-print(2 / 5)
+print(type(2 - 4))
+print(type(2 * 4))
+print(type(2 / 5))
