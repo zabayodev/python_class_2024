@@ -16,3 +16,7 @@ last_name = "Neagoie"
 
 full_name  = first_name + ' ' + last_name
 print(full_name)
+
+# String concatenation
+print('hello' + ' Emma')
+
