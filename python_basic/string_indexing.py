@@ -3,4 +3,5 @@ salutation = "hi there"
 #01234567
 print(salutation[0])
 print(salutation[7])
+# indexing using the start and the end
 print(salutation[0:7])
