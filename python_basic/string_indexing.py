@@ -3,3 +3,4 @@ salutation = "hi there"
 #01234567
 print(salutation[0])
 print(salutation[7])
+print(salutation[0:7])
