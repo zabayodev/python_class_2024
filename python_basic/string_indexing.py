@@ -5,3 +5,7 @@ print(salutation[0])
 print(salutation[7])
 # indexing using the start and the end
 print(salutation[0:7])
+# indexing using the stepover in a string
+print(salutation[0:8:2])
+print(salutation[::])
+print(salutation[::-1])
