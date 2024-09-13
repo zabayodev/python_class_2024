@@ -4,3 +4,4 @@ li2 = ['a', 'b', 'c']
 
 # Data structure
 # the way of organizing data in a structure way
+print(li[0])
