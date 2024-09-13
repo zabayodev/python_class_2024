@@ -39,5 +39,12 @@ new_li2.pop(3)
 print(new_li2)
 
 # clear
-new_li2 = new_li2.clear()
+# new_li2 = new_li2.clear()
+# print(new_li2)
+# print(n)
+print(99 in new_li2)
+print(new_li2.count(100))
+new_li2.sort()
+sorted(new_li2)
+print(sorted(new_li2))
 print(new_li2)
