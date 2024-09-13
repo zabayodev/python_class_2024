@@ -12,7 +12,7 @@ print(li[0:2])
 li[0] = 8
 print(li)
 
-#Matrix
+#Constructing a matrix using a list
 matrix = [
     [1,2,3],
     [2, 4, 6],
