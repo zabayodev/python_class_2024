@@ -21,13 +21,23 @@ matrix = [
 print(matrix)
 print(matrix[0][1])
 
-# List methods
+# List methods append and extend
 print(len(matrix))
 print(len(li))
 new_li = li.append(100)
 new_li = li
 print(new_li)
 
-new_li2 = new_li.insert(1, 100)
+new_li2 = new_li.insert(5, 100)
+new_li2 = new_li.insert(2, 100)
+new_li2 = new_li.extend([100])
 new_li2 = new_li
+
+
+# removing element using pop 
+new_li2.pop(3)
+print(new_li2)
+
+# clear
+new_li2 = new_li2.clear()
 print(new_li2)
