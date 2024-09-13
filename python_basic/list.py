@@ -46,5 +46,12 @@ print(99 in new_li2)
 print(new_li2.count(100))
 new_li2.sort()
 sorted(new_li2)
-print(sorted(new_li2))
+print(sorted(new_li2)) 
 print(new_li2)
+new_li2.reverse()
+print(new_li2)
+
+# using range to produce a list
+print(list(range(1, 100)))
+print(list(range(101)))
+
