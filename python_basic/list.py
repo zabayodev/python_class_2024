@@ -27,3 +27,7 @@ print(len(li))
 new_li = li.append(100)
 new_li = li
 print(new_li)
+
+new_li2 = new_li.insert(1, 100)
+new_li2 = new_li
+print(new_li2)
