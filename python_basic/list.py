@@ -20,3 +20,10 @@ matrix = [
     ]
 print(matrix)
 print(matrix[0][1])
+
+# List methods
+print(len(matrix))
+print(len(li))
+new_li = li.append(100)
+new_li = li
+print(new_li)
