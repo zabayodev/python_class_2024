@@ -55,3 +55,15 @@ print(new_li2)
 print(list(range(1, 100)))
 print(list(range(101)))
 
+# using join on the list
+sentence = ' '.join(['hi', 'my', 'name', 'is', 'jojo'])
+print(sentence)
+
+# list unpacking
+basket = [1, 2, 3]
+a, b, c, *other, d= [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(a)
+print(b)
+print(c)
+print(other)
+print(d)
