@@ -20,3 +20,13 @@ say_hello(emoji = '&&', name='Bibi')
 
 # Default parameters
 say_hello()
+
+# return
+def sum(num1, num2):
+    return num1 + num2
+    
+total = sum(10, 6)
+print(sum(10, total ))
+
+# function should do one thing really well
+# should return something
