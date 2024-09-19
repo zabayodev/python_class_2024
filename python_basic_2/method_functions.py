@@ -6,7 +6,11 @@
 print('hello'.capitalize())
 
 # docstring for a functions
-'''
+def test(name):
+    '''
 This function produce the test use cases in python
 
 '''
+    print(name)
+
+test('alex')
