@@ -6,7 +6,7 @@
 # say_hello()
 
 # parameters and arguments
-def say_hello(name, emoji): # parameters in the functions
+def say_hello(name='gretta', emoji='$$$'): # parameters in the functions
     print(f'helloooo {name} {emoji}')
     
 # Arguments
@@ -17,3 +17,6 @@ say_hello('Emily', '**')
 
 # keyword arguments
 say_hello(emoji = '&&', name='Bibi')
+
+# Default parameters
+say_hello()
