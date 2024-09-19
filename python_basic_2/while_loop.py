@@ -16,3 +16,12 @@ while i < 50:
     break
 else:
     print('Done with all the work')
+
+# when to use a for loop and a while loop
+for item in [1, 2, 3]:
+    print(item)
+    
+while True:
+    response = input('say something: ')
+    if (response == 'bye'):
+        break
