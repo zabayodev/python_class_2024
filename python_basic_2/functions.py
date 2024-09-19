@@ -10,6 +10,10 @@ def say_hello(name, emoji): # parameters in the functions
     print(f'helloooo {name} {emoji}')
     
 # Arguments
+# positional parameters and argument
 say_hello('Emma', '**')
 say_hello('Dan', '**')
 say_hello('Emily', '**')
+
+# keyword arguments
+say_hello(emoji = '&&', name='Bibi')
